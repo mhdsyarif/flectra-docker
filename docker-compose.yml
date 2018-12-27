@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+
+
+  flectra:
+    image: flectrahq/flectra:latest
+    ports:
+      - "7073:7073"
+    volumes:
+      - /opt/flectra/flectra-docker/etc:/etc/flectra
+      - /opt/flectra/addons:/mnt/extra-addons
+    networks:
+      - default
+      - db_network
+    external_links:
+      - redash_postgres_1:db
+
+networks:
+    db_network:
+        external:
+            name: redash_default
+

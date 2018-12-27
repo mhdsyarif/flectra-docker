@@ -1,0 +1,4 @@
+2018-12-27 06:41:21,717 1 INFO flectra werkzeug: 172.27.0.1 - - [27/Dec/2018 06:41:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.038 50.078
+2018-12-27 06:42:11,805 1 INFO flectra werkzeug: 172.27.0.1 - - [27/Dec/2018 06:42:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.018 50.047
+2018-12-27 06:43:01,837 1 INFO flectra werkzeug: 172.27.0.1 - - [27/Dec/2018 06:43:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.019
+2018-12-27 06:43:51,912 1 INFO flectra werkzeug: 172.27.0.1 - - [27/Dec/2018 06:43:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.011 50.037
